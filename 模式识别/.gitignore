@@ -1,0 +1,36 @@
+# 忽略Python编译文件
+__pycache__/
+*.pyc
+
+# 忽略模型检查点
+checkpoints/
+
+# 忽略日志文件
+logs/
+
+# 忽略数据集（如果数据较大）
+dataset/
+
+# 忽略IDE文件
+.idea/
+
+# 忽略压缩文件
+*.zip
+
+# 忽略临时文件
+*.tmp
+*.temp
+
+# 忽略系统文件
+Thumbs.db
+.DS_Store
+
+# 忽略测试文件
+Test/
+
+# 忽略其他可能的临时目录
+*~
+
+# 忽略环境文件
+.env
+venv/
